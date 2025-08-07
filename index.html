@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliador de filmes</title>
+    <link rel="stylesheet" href="style.css"> <!-- Principal -->
+    <link rel="stylesheet" href="add.css"> <!-- Adicional -->
+    <link rel="shortcut icon" href="stars_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <table>
+                    <tr>
+                        <td>Introdução:</td>
+                        <td>
+                            <input type="range" name="" id="intro" min="0" max="6" step="0.5">
+                        </td>
+                        <td class="centralizado" id="valorIntro">3.0</td>
+                    </tr>
+                    <tr>
+                        <td>Desenvolvimento:</td>
+                        <td>
+                            <input type="range" name="" id="desen" min="0" max="6" step="0.5">
+                        </td>
+                        <td class="centralizado" id="valorDesen">3.0</td>
+                    </tr>
+                    <tr>
+                        <td>Clímax:</td>
+                        <td>
+                            <input type="range" name="" id="clima" min="0" max="6" step="0.5">
+                        </td>
+                        <td class="centralizado" id="valorClima">3.0</td>
+                    </tr>
+                    <tr>
+                        <td>Resolução:</td>
+                        <td>
+                            <input type="range" name="" id="resol" min="0" max="6" step="0.5">
+                        </td>
+                        <td class="centralizado" id="valorResol">3.0</td>
+                    </tr>
+                    <tr>
+                        <td>Finalização:</td>
+                        <td>
+                            <input type="range" name="" id="final" min="0" max="6" step="0.5">
+                        </td>
+                        <td class="centralizado" id="valorFinal">3.0</td>
+                    </tr>
+                    <tr>
+                        <td class="negrito centralizado">MÉDIA:</td>
+                        <td class="centralizado">
+                            <input type="text" name="" id="total" class="negrito" disabled>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>&copy; Felipe Cordeiro</span><br>
+        <span>Agosto de 2025</span><br>
+        <span>v 2.0</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

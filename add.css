@@ -1,0 +1,32 @@
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+}
+
+/* Estilizando as trilhas */
+input[type=range]::-webkit-slider-runnable-track {
+    background: rgba(139, 0, 0, 0.75);
+    border-radius: 10px;
+}
+input[type=range]::-moz-range-track { /* Firefox */
+    background: rgba(139, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+/* Estilizando o símbolo */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-image: url('stars_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.png');
+    background-size: cover;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+input[type=range]::-moz-range-thumb { /* Firefox */
+    background-image: url('stars_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.png');
+    background-size: cover;
+    border: none;
+    width: 20px;
+    height: 20px;
+}

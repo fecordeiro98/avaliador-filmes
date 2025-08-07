@@ -1,0 +1,36 @@
+html, input {
+    font-family: sans-serif; font-size: 12pt;
+    color: white;
+}
+html {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+tr td:last-child {
+    width: 5ch;
+}
+input {
+    text-align: center;
+}
+input[type=text] {
+    width: 110px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+footer {
+    margin-top: 12pt;
+}
+
+.centralizado {
+    text-align: center;
+}
+.negrito {
+    font-weight: bold;
+}
